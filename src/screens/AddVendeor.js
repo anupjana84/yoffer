@@ -531,7 +531,7 @@ const save = async () => {
                         
                     }}
                      query={{
-                     key: 'AIzaSyDGt77-gotuNZ4hFz6DkWBv4N0XFW3WJ6Q',
+                     key: '',
                     language: 'en',
                     }}
                     styles={{
