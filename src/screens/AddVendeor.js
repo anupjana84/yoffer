@@ -259,7 +259,7 @@ const getAddressDetails=()=>{
        setLat(location.latitude)
        setLong(location.longitude)
       //  console.log(lati,long)
-      Geocoder.init("AIzaSyDGt77-gotuNZ4hFz6DkWBv4N0XFW3WJ6Q"); // use a valid API key
+      Geocoder.init(""); // use a valid API key
 
       Geocoder.from(location.latitude,location.longitude)
           .then(json => {
